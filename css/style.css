@@ -16,6 +16,7 @@
 	background-size: cover;
 	background-position: center;
 }
+
 .hero-bg {
 	display: block;
 	position: absolute;
@@ -39,6 +40,11 @@
 	text-transform: uppercase;
 	color: #09f;
 }
+.section-tittle {
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -47,6 +53,52 @@ nav {
 	height: 60px;
 	line-height: 60px;
 	background-color: grey;
+	text-align: center;
+}
+main {
+	margin: 80px 0;
+}
+/* o nas */
+.about-us-info {
+	margin-bottom: 10px;
+}
+/* products */
+.products {
+	margin: 60px auto;
+}
+.product h3 {
+	text-transform: uppercase;
+}
+.first-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/children-593313_640.jpg');
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.second-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/keyboard-70506_640.jpg');
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.third-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/woman-1851464_640.jpg');
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.fourth-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/laptop-1483974_640.jpg');
+	background-position: center;
+	background-size: cover;
 	text-align: center;
 }
 
